@@ -12,6 +12,9 @@
     />
     <link rel="stylesheet" href="style.css" />
     <title>Bankist | When Banking meets Minimalist</title>
+
+    <script defer src="script.js"></script>
+
   </head>
   <body>
     <header class="header">
@@ -152,6 +155,7 @@
             <span>03</span>Instant Closing
           </button>
         </div>
+
         <div
           class="operations__content operations__content--1 operations__content--active"
         >
@@ -215,6 +219,7 @@
       </div>
 
       <div class="slider">
+
         <div class="slide slide--1">
           <div class="testimonial">
             <h5 class="testimonial__header">Best financial decision ever!</h5>
@@ -275,17 +280,19 @@
           </div>
         </div>
 
-        <!-- <div class="slide"><img src="img/img-1.jpg" alt="Photo 1" /></div>
-        <div class="slide"><img src="img/img-2.jpg" alt="Photo 2" /></div>
-        <div class="slide"><img src="img/img-3.jpg" alt="Photo 3" /></div>
-        <div class="slide"><img src="img/img-4.jpg" alt="Photo 4" /></div> -->
         <button class="slider__btn slider__btn--left">&larr;</button>
         <button class="slider__btn slider__btn--right">&rarr;</button>
-        <div class="dots"></div>
+
+        <div class="dots">
+          <!-- <button class="dots__dot" data-slide="0"></button>
+          <button class="dots__dot dots__dot--active" data-slide="1"></button>
+          <button class="dots__dot" data-slide="2"></button> -->
+        </div>
+
       </div>
     </section>
 
-    <section class="section section--sign-up">
+    <section class="section section--hidden section--sign-up">
       <div class="section__title">
         <h3 class="section__header">
           The best day to join Bankist was one year ago. The second best is
@@ -350,6 +357,6 @@
     </div>
     <div class="overlay hidden"></div>
 
-    <script src="script.js"></script>
+    <!-- <script src="script.js"></script> -->
   </body>
 </html>
